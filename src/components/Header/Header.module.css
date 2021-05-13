@@ -1,0 +1,32 @@
+.header {
+  background: url("../../assets/images/hero.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.primaryHeading {
+  position: absolute;
+  left: 151px;
+  top: 246px;
+
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8rem;
+  line-height: 9.6rem;
+  color: #fff;
+}
+.mainPara {
+  position: absolute;
+  left: 151px;
+  top: 366px;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  opacity: 0.2;
+  color: #fff;
+}

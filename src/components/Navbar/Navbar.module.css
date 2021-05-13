@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logoBox {
+  height: 44px;
+  width: 86px;
+  border-radius: 0px;
+  position: relative;
+  left: 10.42%;
+  right: 83.61%;
+  top: 10.71%;
+  bottom: 10.71%;
+}
+.logoBox img {
+  height: 44px;
+  width: 86px;
+  border-radius: 0px;
+}
+.navLinks {
+  display: flex;
+  list-style: none;
+}
+.navLinks li {
+  padding: 0 15px;
+}
+.navLinks li a {
+  text-decoration: none;
+  font-family: Open Sans;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
