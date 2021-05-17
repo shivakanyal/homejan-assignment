@@ -1,32 +1,54 @@
 .header {
   background: url("../../assets/images/hero.png");
-  height: 100vh;
-  background-position: center;
+  background-position: fixed;
+  position: relative;
   background-size: cover;
+  background-repeat: no-repeat;
 }
-
+.headingBox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* flex-direction: column; */
+  margin: 180px;
+  margin-bottom: 300px;
+}
 .primaryHeading {
   position: absolute;
-  left: 151px;
-  top: 246px;
-
+  left: 15.1rem;
+  top: 24.6rem;
   font-family: Libre Baskerville;
   font-style: normal;
   font-weight: bold;
-  font-size: 8rem;
+  font-size: 10rem;
   line-height: 9.6rem;
   color: #fff;
 }
 .mainPara {
+  width: 60%;
   position: absolute;
-  left: 151px;
-  top: 366px;
-
+  left: 15.1rem;
+  top: 36.6rem;
   font-family: Nunito;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 32px;
-  opacity: 0.2;
+  font-size: 2.6rem;
+  line-height: 3.2rem;
+  opacity: 0.3;
   color: #fff;
+}
+
+@media only screen and (max-width: 919px) {
+  .primaryHeading {
+    font-size: 7rem;
+    top: 20rem;
+  }
+  .mainPara {
+    font-size: 2rem;
+    top: 30rem;
+  }
+  .primaryHeading,
+  .mainPara {
+    left: 10rem;
+  }
 }

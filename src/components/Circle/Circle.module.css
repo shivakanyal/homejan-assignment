@@ -1,0 +1,31 @@
+.circle {
+  height: 208px;
+  width: 208px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* opacity: 0.2; */
+  border: 1px solid rgba(256, 256, 256, 0.2);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.circle:hover {
+  border: 1px solid #dd4cac;
+  transition: all 0.3s ease-in-out;
+}
+.image {
+  height: 25px;
+  /* width: 30px; */
+}
+.number {
+  font-size: 2.4rem;
+  color: #fff;
+  opacity: 0.2;
+}
+.label {
+  font-size: 1.6rem;
+  color: #fff;
+  opacity: 0.2;
+}
